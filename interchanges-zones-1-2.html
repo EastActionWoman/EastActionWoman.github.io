@@ -47,6 +47,7 @@ ul, #interchanges {
 .tflrail { background:#10069f; color:#10069f; text-align:left; } 
 .buses { background:#da291c; color:#da291c; text-align: left; }
 .other { background:RGB(220,0,107); color:RGB(220,0,107); }
+.exit { color:RGB(220,0,107); font-weight:bold; }
 
 a:link {
 background-color: white;
@@ -63,70 +64,55 @@ display: inline-block;
       <ul id="interchanges">
          <li><span class="caret">Aldgate</span><ul class="nested">
                <li><span class="circle">llllll</span><span class="caret">Circle</span><ul class="nested">
-                     <li><span class="caret">Clockwise</span><ul class="nested">
+                     <li><span class="caret">1. Clockwise→</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> R</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
-                     <li><span class="caret">Anticlockwise</span><ul class="nested">
+                     <li><span class="caret">4. Anticlockwise→</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> R</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
+                     <li><a href="https://tfl.gov.uk/tube/stop/940GZZLUALD/aldgate-underground-station?lineId=circle" target="_blank">Live arrivals</a></li>
                   </ul>
                </li>
                <li><span class="metropolitan">llllll</span><span class="caret">Metropolitan</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
+                     <li><span class="caret">2. Northbound→</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> R</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
+                     <li><span class="caret">3. ←Northbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> L</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
+                     <li><a href="https://tfl.gov.uk/tube/stop/940GZZLUALD/aldgate-underground-station?lineId=metropolitan" target="_blank">Live arrivals</a></li>
                   </ul>
                </li>
             </ul>
          </li>
          <li><span class="caret">Aldgate East</span><ul class="nested">
-               <li><span class="district">llllll</span><span class="caret">District</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
+               <li><span class="district">lll</span><span class="hammersmith">lll</span><span class="caret">District and Hammersmith &amp; City</span><ul class="nested">
+                     <li><span class="caret">←Westbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li>1,1 L</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
+                     <li><span class="caret">←Eastbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                  </ul>
-               </li>
-               <li><span class="hammersmith">llllll</span><span class="caret">Hammersmith &amp; City</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li>7,3 L</li>
                               </ul>
                            </li>
                         </ul>
@@ -213,7 +199,7 @@ display: inline-block;
                      </li>
                   </ul>
                </li>
-               <li><span class="circle">llllll</span><span class="caret">Circle</span><ul class="nested">
+               <li><span class="circle">lll</span><span class="hammersmith">lll</span><span class="caret">Circle and Hammersmith &amp; City</span><ul class="nested">
                      <li><span class="caret">Clockwise</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
                                  <li> either</li>
@@ -222,23 +208,6 @@ display: inline-block;
                         </ul>
                      </li>
                      <li><span class="caret">Anticlockwise</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                  </ul>
-               </li>
-               <li><span class="hammersmith">llllll</span><span class="caret">Hammersmith &amp; City</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
                                  <li> either</li>
                               </ul>
@@ -331,41 +300,7 @@ display: inline-block;
             </ul>
          </li>
          <li><span class="caret">Barbican</span><ul class="nested">
-               <li><span class="circle">llllll</span><span class="caret">Circle</span><ul class="nested">
-                     <li><span class="caret">Clockwise</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><span class="caret">Anticlockwise</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                  </ul>
-               </li>
-               <li><span class="hammersmith">llllll</span><span class="caret">Hammersmith &amp; City</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                  </ul>
-               </li>
-               <li><span class="metropolitan">llllll</span><span class="caret">Metropolitan</span><ul class="nested">
+               <li><span class="circle">ll</span><span class="hammersmith">ll</span><span class="metropolitan">ll</span><span class="caret">Circle, Hammersmith &amp; City and Metropolitan</span><ul class="nested">
                      <li><span class="caret">Westbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
                                  <li> either</li>
@@ -386,16 +321,16 @@ display: inline-block;
          </li>
          <li><span class="caret">Barons Court</span><ul class="nested">
                <li><span class="district">llllll</span><span class="caret">District</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
+                     <li><span class="caret">1. Westbound→</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li>7,3 R</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
+                     <li><span class="caret">4. Eastbound→</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li>1,1 R</li>
                               </ul>
                            </li>
                         </ul>
@@ -403,16 +338,16 @@ display: inline-block;
                   </ul>
                </li>
                <li><span class="piccadilly">llllll</span><span class="caret">Piccadilly</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
+                     <li><span class="caret">2. ←Westbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li>6,3 L</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
+                     <li><span class="caret">3. ←Eastbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li>1,1 L</li>
                               </ul>
                            </li>
                         </ul>
@@ -422,34 +357,17 @@ display: inline-block;
             </ul>
          </li>
          <li><span class="caret">Bayswater</span><ul class="nested">
-               <li><span class="circle">llllll</span><span class="caret">Circle</span><ul class="nested">
-                     <li><span class="caret">Clockwise</span><ul class="nested">
+               <li><span class="circle">lll</span><span class="district">lll</span><span class="caret">Circle and District</span><ul class="nested">
+                     <li><span class="caret">←Northbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> L</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
-                     <li><span class="caret">Anticlockwise</span><ul class="nested">
+                     <li><span class="caret">←Southbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                  </ul>
-               </li>
-               <li><span class="district">llllll</span><span class="caret">District</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> L</li>
                               </ul>
                            </li>
                         </ul>
@@ -519,34 +437,17 @@ display: inline-block;
             </ul>
          </li>
          <li><span class="caret">Blackfriars</span><ul class="nested">
-               <li><span class="circle">llllll</span><span class="caret">Circle</span><ul class="nested">
-                     <li><span class="caret">Clockwise</span><ul class="nested">
+               <li><span class="circle">lll</span><span class="district">lll</span><span class="caret">Circle and District</span><ul class="nested">
+                     <li><span class="caret">←Westbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> L</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
-                     <li><span class="caret">Anticlockwise</span><ul class="nested">
+                     <li><span class="caret">←Eastbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                  </ul>
-               </li>
-               <li><span class="district">llllll</span><span class="caret">District</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> L</li>
                               </ul>
                            </li>
                         </ul>
@@ -673,34 +574,17 @@ display: inline-block;
             </ul>
          </li>
          <li><span class="caret">Bow Road</span><ul class="nested">
-               <li><span class="district">llllll</span><span class="caret">District</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
+               <li><span class="district">lll</span><span class="hammersmith">lll</span><span class="caret">District and Hammersmith &amp; City</span><ul class="nested">
+                     <li><span class="caret">←Westbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> L</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
+                     <li><span class="caret">←Eastbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                  </ul>
-               </li>
-               <li><span class="hammersmith">llllll</span><span class="caret">Hammersmith &amp; City</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> L</li>
                               </ul>
                            </li>
                         </ul>
@@ -730,34 +614,17 @@ display: inline-block;
             </ul>
          </li>
          <li><span class="caret">Bromley-by-Bow</span><ul class="nested">
-               <li><span class="district">llllll</span><span class="caret">District</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
+               <li><span class="district">lll</span><span class="hammersmith">lll</span><span class="caret">District and Hammersmith &amp; City</span><ul class="nested">
+                     <li><span class="caret">←Westbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> L</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
+                     <li><span class="caret">←Eastbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                  </ul>
-               </li>
-               <li><span class="hammersmith">llllll</span><span class="caret">Hammersmith &amp; City</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> L</li>
                               </ul>
                            </li>
                         </ul>
@@ -788,20 +655,35 @@ display: inline-block;
          </li>
          <li><span class="caret">Camden Town</span><ul class="nested">
                <li><span class="northern">llllll</span><span class="caret">Northern</span><ul class="nested">
-                     <li><span class="caret">Northbound</span><ul class="nested">
+                     <li><span class="caret">1. Northbound - Edgware branch→</span><ul class="nested">
+                           <li><span class="caret">Change to  </span><ul class="nested">
+                                 <li> R</li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><span class="caret">3. ←Northbound - High Barnet branch</span><ul class="nested">
+                           <li><span class="caret">Change to  </span><ul class="nested">
+                                 <li> L</li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><span class="caret">2. Southbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
                                  <li> either</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
-                     <li><span class="caret">Southbound</span><ul class="nested">
+                     <li><span class="caret">4. Southbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
                                  <li> either</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
+                     <li><a href="https://tfl.gov.uk/tube/stop/940GZZLUCTN/camden-town-underground-station" target="_blank">Live arrivals</a></li>
                   </ul>
                </li>
             </ul>
@@ -867,34 +749,17 @@ display: inline-block;
             </ul>
          </li>
          <li><span class="caret">Cannon Street</span><ul class="nested">
-               <li><span class="circle">llllll</span><span class="caret">Circle</span><ul class="nested">
-                     <li><span class="caret">Clockwise</span><ul class="nested">
+               <li><span class="circle">lll</span><span class="district">lll</span><span class="caret">Circle and District</span><ul class="nested">
+                     <li><span class="caret">←Westbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> L</li>
                               </ul>
                            </li>
                         </ul>
                      </li>
-                     <li><span class="caret">Anticlockwise</span><ul class="nested">
+                     <li><span class="caret">←Eastbound</span><ul class="nested">
                            <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                  </ul>
-               </li>
-               <li><span class="district">llllll</span><span class="caret">District</span><ul class="nested">
-                     <li><span class="caret">Westbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <li><span class="caret">Eastbound</span><ul class="nested">
-                           <li><span class="caret">Change to  </span><ul class="nested">
-                                 <li> either</li>
+                                 <li> L</li>
                               </ul>
                            </li>
                         </ul>
@@ -1107,6 +972,11 @@ display: inline-block;
                                  </li>
                               </ul>
                            </li>
+                           <li><span class="caret exit">Exit</span><ul class="nested">
+                                 <li>8,3 L</li>
+                                 <li>left down stairs, right through barriers</li>
+                              </ul>
+                           </li>
                         </ul>
                      </li>
                      <li><span class="caret">←Eastbound</span><ul class="nested">
@@ -1117,6 +987,21 @@ display: inline-block;
                                  </li>
                               </ul>
                            </li>
+                           <li><span class="caret exit">Exit</span><ul class="nested">
+                                 <li>1,1 L</li>
+                                 <li>right down stairs, right along corridor and through
+                                    barriers
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li><span class="other">llllll</span><span class="caret"><b>Buses</b></span><ul class="nested">
+                     <li><span class="caret">Stop H - 3 minutes away. Right out of station to junction of Erconwald Street and Du Cane
+                           Road. Cross to stop next to chip shop.</span><ul class="nested">
+                           <li>Acton Central - 70</li>
                         </ul>
                      </li>
                   </ul>
@@ -4483,6 +4368,13 @@ display: inline-block;
                                  </li>
                               </ul>
                            </li>
+                           <li><span class="caret exit">Exit</span><ul class="nested">
+                                 <li>3,1 L</li>
+                                 <li>left up stairs, right across short bridge, through barriers. Left
+                                    towards Wood Lane (2 mins).
+                                 </li>
+                              </ul>
+                           </li>
                         </ul>
                      </li>
                      <li><span class="caret">←Eastbound</span><ul class="nested">
@@ -4492,6 +4384,22 @@ display: inline-block;
                                     train OR right down stairs to back of train
                                  </li>
                               </ul>
+                           </li>
+                           <li><span class="caret exit">Exit</span><ul class="nested">
+                                 <li>7,1 L</li>
+                                 <li>right up stairs, right through barriers. Left towards Wood Lane (2
+                                    mins).
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li><span class="other">llllll</span><span class="caret"><b>Buses</b></span><ul class="nested">
+                     <li><span class="caret">Stop WE - from station exit, cross road and turn left</span><ul class="nested">
+                           <li>Willesden
+                              Junction - 220
                            </li>
                         </ul>
                      </li>
